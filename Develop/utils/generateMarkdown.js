@@ -1,7 +1,7 @@
 function licenseOption(license) {
   if (license !== "None") {
     return `## Licenses
-      This project licensed under ${license}`;
+      This project is licensed under ${license}`;
   }
   return "";
 }
@@ -9,9 +9,14 @@ function licenseOption(license) {
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-          ## Description
-          ${data.description}
-          ${licenseOption(data.license)}
+  ## Github Username
+  ${data.username}
+
+  ## Project Description
+
+  ${data.description}
+        
+  ${licenseOption(data.license)}
 
 
 
