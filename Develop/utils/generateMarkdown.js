@@ -1,11 +1,3 @@
-function licenseOption(license) {
-  if (license !== "None") {
-    return `## Licenses
-      This project is licensed under ${license}`;
-  }
-  return "";
-}
-
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
@@ -13,6 +5,8 @@ function generateMarkdown(data) {
   ## Project Description
 
   ${data.description}
+
+  ## Table of Contents
 
   ## Installation Instructions
 
@@ -27,7 +21,7 @@ function generateMarkdown(data) {
   ${data.contribution}
 
         
-  ${licenseOption(data.license)}
+  [![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-yellow.svg)](https://opensource.org/licenses/${data.license})
 
 
 
@@ -43,3 +37,13 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
+
+//${licenseOption(data.license)}
+
+function licenseOption(license) {
+  if (license !== "None") {
+    return `## Licenses
+      This project is licensed under ${license}`;
+  }
+  return "";
+}

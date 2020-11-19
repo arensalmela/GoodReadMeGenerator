@@ -50,12 +50,7 @@ const questions = [
     type: "list",
     message: "What kind of license does this application need?",
     name: "license",
-    choices: [
-      "Microsoft Public License",
-      "Open Software License 3.0",
-      "Mozilla Public License 2.0",
-      "None",
-    ],
+    choices: ["ISC", "Artistic", "MIT"],
   },
 ];
 
