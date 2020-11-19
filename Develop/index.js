@@ -12,6 +12,12 @@ const questions = [
 
   {
     type: "input",
+    message: "What is an email address people can reach out at?",
+    name: "email",
+  },
+
+  {
+    type: "input",
     message: "What is the title of your project?",
     name: "title",
   },
@@ -21,6 +27,19 @@ const questions = [
     message: "What is the description of your project?",
     name: "description",
   },
+
+  {
+    type: "input",
+    message: "What is the utility of your application?",
+    name: "usage",
+  },
+
+  {
+    type: "input",
+    message: "Please specify any contribution guidelines your application has.",
+    name: "contribution",
+  },
+
   {
     type: "input",
     message: "What command should I run to install dependencies?",
