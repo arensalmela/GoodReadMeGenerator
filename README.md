@@ -1,5 +1,7 @@
 # GoodReadMeGenerator
 
+## Github Repo Link https://github.com/arensalmela/GoodReadMeGenerator
+
 ### Collaborated with https://github.com/ReindeerCode
 
 ## Link for video walkthrough https://drive.google.com/file/d/1QaqQQFzD0WjjfCJNYw9BF_H6fCIguZog/view?usp=sharing
