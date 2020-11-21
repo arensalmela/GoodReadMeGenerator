@@ -12,7 +12,7 @@ const questions = [
 
   {
     type: "input",
-    message: "What is an email address people can reach out at?",
+    message: "What is an email address people can reach out to?",
     name: "email",
   },
 
@@ -51,6 +51,13 @@ const questions = [
     message: "What kind of license does this application need?",
     name: "license",
     choices: ["ISC", "Artistic", "MIT"],
+  },
+
+  {
+    type: "input",
+    message:
+      "How can you test the application to make sure it is working properly? ",
+    name: "test",
   },
 ];
 
