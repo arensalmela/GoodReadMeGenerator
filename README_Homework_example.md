@@ -4,13 +4,12 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-
-  
 ## Project Description
 
 This is the description of my project
 
 ## Table of Contents
+
 - [Installation Instructions](#installation-instructions)
 - [Usage Information](#usage-information)
 - [Constribtion Guidelines](#contribution-guidelines)
@@ -36,8 +35,9 @@ Please test the application to know it works correctly
 # Questions
 
 ## Github Username
+
 https://github.com/arensalmela
 
 ## Email Address
-myemail@gmail.com
 
+myemail@gmail.com
